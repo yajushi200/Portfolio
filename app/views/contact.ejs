@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<!-- head section -->
+<%- include ('partials/head.ejs') %>
+
+  <body>
+    <!-- header section -->
+    <%- include ('partials/main_nav.ejs') %>
+      <main class="container c-contact-form mt-5 mb-5 pb-5">
+        <h1 class="display-4 text-center">Say Hello</h1>
+        <p class="text-secondary-emphasis mt-3 text-center">
+          Thank you for exploring my portfolio website. I am excited to explore opportunities where my expertise can
+          elevate your next project to new heights. Please don't hesitate to connect with me using the provided contact
+          details. I look forward to discussing how I can make a significant impact
+        </p>
+        <div class="social-links d-flex justify-content-center mt-3">
+          <a aria-label="LinkedIn Profile" href="https://www.linkedin.com/in/yajushigarg1207/" target="_blank"
+            rel="noreferrer noopener" class="icon"><svg width="48" height="48" viewBox="0 0 32 32" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M25.3333 4C26.0406 4 26.7189 4.28095 27.219 4.78105C27.719 5.28115 28 5.95942 28 6.66667V25.3333C28 26.0406 27.719 26.7189 27.219 27.219C26.7189 27.719 26.0406 28 25.3333 28H6.66667C5.95942 28 5.28115 27.719 4.78105 27.219C4.28095 26.7189 4 26.0406 4 25.3333V6.66667C4 5.95942 4.28095 5.28115 4.78105 4.78105C5.28115 4.28095 5.95942 4 6.66667 4H25.3333ZM24.6667 24.6667V17.6C24.6667 16.4472 24.2087 15.3416 23.3936 14.5264C22.5784 13.7113 21.4728 13.2533 20.32 13.2533C19.1867 13.2533 17.8667 13.9467 17.2267 14.9867V13.5067H13.5067V24.6667H17.2267V18.0933C17.2267 17.0667 18.0533 16.2267 19.08 16.2267C19.5751 16.2267 20.0499 16.4233 20.3999 16.7734C20.75 17.1235 20.9467 17.5983 20.9467 18.0933V24.6667H24.6667ZM9.17333 11.4133C9.76742 11.4133 10.3372 11.1773 10.7573 10.7573C11.1773 10.3372 11.4133 9.76742 11.4133 9.17333C11.4133 7.93333 10.4133 6.92 9.17333 6.92C8.57571 6.92 8.00257 7.1574 7.57999 7.57999C7.1574 8.00257 6.92 8.57571 6.92 9.17333C6.92 10.4133 7.93333 11.4133 9.17333 11.4133ZM11.0267 24.6667V13.5067H7.33333V24.6667H11.0267Z"
+                fill="#D9D9D9"></path>
+            </svg></a><a aria-label="Github Profile" href="https://github.com/yajushi200" target="_blank"
+            rel="noreferrer noopener" class="icon ms-2"><svg width="48" height="48" viewBox="0 0 32 32" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M16 2.66663C14.249 2.66663 12.5152 3.0115 10.8975 3.68157C9.27984 4.35163 7.80998 5.33375 6.57187 6.57187C4.07138 9.07235 2.66663 12.4637 2.66663 16C2.66663 21.8933 6.49329 26.8933 11.7866 28.6666C12.4533 28.7733 12.6666 28.36 12.6666 28V25.7466C8.97329 26.5466 8.18663 23.96 8.18663 23.96C7.57329 22.4133 6.70663 22 6.70663 22C5.49329 21.1733 6.79996 21.2 6.79996 21.2C8.13329 21.2933 8.83996 22.5733 8.83996 22.5733C9.99996 24.6 11.96 24 12.72 23.68C12.84 22.8133 13.1866 22.2266 13.56 21.8933C10.6 21.56 7.49329 20.4133 7.49329 15.3333C7.49329 13.8533 7.99996 12.6666 8.86663 11.72C8.73329 11.3866 8.26663 9.99996 8.99996 8.19996C8.99996 8.19996 10.12 7.83996 12.6666 9.55996C13.72 9.26663 14.8666 9.11996 16 9.11996C17.1333 9.11996 18.28 9.26663 19.3333 9.55996C21.88 7.83996 23 8.19996 23 8.19996C23.7333 9.99996 23.2666 11.3866 23.1333 11.72C24 12.6666 24.5066 13.8533 24.5066 15.3333C24.5066 20.4266 21.3866 21.5466 18.4133 21.88C18.8933 22.2933 19.3333 23.1066 19.3333 24.3466V28C19.3333 28.36 19.5466 28.7866 20.2266 28.6666C25.52 26.88 29.3333 21.8933 29.3333 16C29.3333 14.249 28.9884 12.5152 28.3184 10.8975C27.6483 9.27984 26.6662 7.80998 25.4281 6.57187C24.1899 5.33375 22.7201 4.35163 21.1024 3.68157C19.4847 3.0115 17.7509 2.66663 16 2.66663Z"
+                fill="#D9D9D9"></path>
+            </svg></a>
+        </div>
+        <form class="mt-5" action="/">
+          <div class="mb-3">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" name="first-name" />
+          </div>
+          <div class="mb-3">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" name="last-name" />
+          </div>
+          <div class="mb-3">
+            <label for="contactNumber" class="form-label">Contact Number</label>
+            <input type="text" class="form-control" id="contactNumber" name="contact-number" />
+          </div>
+          <div class="mb-3">
+            <label for="emailAddress" class="form-label">Email</label>
+            <input type="text" class="form-control" id="emailAddress" name="email-address" />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="3" name="message"></textarea>
+          </div>
+          <button class="btn btn-outline-light">Submit</button>
+        </form>
+      </main>
+
+      <!--footer section-->
+      <%- include ('partials/footer.ejs') %>
+
+        <!--script section-->
+        <%- include ('partials/scripts.ejs') %>
+  </body>
+
+</html>

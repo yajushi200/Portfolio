@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<!-- head section -->
+<%- include ('partials/head.ejs') %>
+
+  <body>
+    <!-- header section -->
+    <%- include ('partials/main_nav.ejs') %>
+
+      <main class="container c-container mt-5 mb-5 pb-5">
+        <h1 class="display-4 text-center">My Projects</h1>
+        <section class="row mt-5 justify-content-center mx-0">
+          <div class="card pt-4 col-lg-3">
+            <img
+              src="favicons/1.png"
+              class="card-img-top" alt="Black Jack" width="100%" height="144" />
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title">Academic Projects</h5>
+              <p class="card-text mb-3">
+                It contains all my projects that I have been doing since my 1st year as an Software Engineering Student
+              </p>
+              <a href="https://github.com/yajushi200/yajushi200.github.io" class="btn btn-outline-secondary mt-auto"
+                target="_blank">Visit Project</a>
+            </div>
+          </div>
+          <div class="card pt-4 col-lg-3 mt-4 mt-lg-0 ms-lg-5">
+            <img
+              src="favicons/y.jpg"
+              class="card-img-top object-fit-contain" alt="Web Resume (v0.2)" width="100%" height="144" />
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title">Web Resume (v0.2)</h5>
+              <p class="card-text mb-3">
+                This is a web resume built using HTML, CSS, SCSS, and React.js.
+                The sections of the resume include skills, experience, education,
+                projects, and contact information.
+              </p>
+              <a href="https://github.com/yajushi200/yajushi200.github.io" class="btn btn-outline-secondary mt-3 mt-auto"
+                target="_blank">Visit Project</a>
+            </div>
+          </div>
+          <div class="card pt-4 col-lg-3 mt-4 mt-lg-0 ms-lg-5">
+            <img
+              src="favicons/b.jpg"
+              class="card-img-top object-fit-contain" alt="Text-Parser-Chrome-Ext" width="100%" height="144" />
+            <div class="card-body d-flex flex-column text-center">
+              <h5 class="card-title">Black Jack</h5>
+              <p class="card-text mb-3">
+                This project is inspired from a very famous game  BLACK JACK. I made it using HTML, CSS and JavaScripting.
+              </p>
+              <a href="https://github.com/yajushi200/blackjack" class="btn btn-outline-secondary mt-3"
+                target="_blank">Visit Project</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!--footer section-->
+      <%- include ('partials/footer.ejs') %>
+        <!--script section-->
+        <%- include ('partials/scripts.ejs') %>
+  </body>
+
+</html>

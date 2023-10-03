@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<!-- head section -->
+<%- include ('partials/head.ejs') %>
+
+  <body>
+    <!-- header section -->
+    <%- include ('partials/main_nav.ejs') %>
+
+      <main class="container c-container mt-5 mb-5 pb-5">
+        <section class="d-flex flex-wrap justify-content-center justify-content-md-between">
+          <picture class="flex-shrink-0 c-avatar order-md-1 mb-3 mb-md-0">
+            <img src="/images/IMG_1586[3684].jpg" alt="my picture" width="100%"
+              class="object-fit-cover rounded-circle" />
+          </picture>
+          <article class="c-bio-container order-md-0 text-center text-md-start">
+            <h1 class="display-4">About Me</h1>
+            <ul class="lead list-style-none mt-4 text-body">
+              <li>
+                Hello, my name is Yajushi garg.I am a dedicated student studying software engineering with solid
+                communication and analytical abilities, eager to learn the fundamentals of workplace culture, and
+                willing to work with exceptional supervision.
+              </li>
+            </ul>
+            <a href="/file/RESUME123.pdf" class="btn btn-light mt-4" download>Click here To Download my Resume</a>
+          </article>
+        </section>
+      </main>
+
+      <!--footer section-->
+      <%- include ('partials/footer.ejs') %>
+
+        <!--script section-->
+        <%- include ('partials/scripts.ejs') %>
+  </body>
+
+</html>

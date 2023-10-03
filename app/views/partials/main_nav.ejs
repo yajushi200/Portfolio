@@ -1,0 +1,73 @@
+<!-- Main Navigation -->
+<header class="sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+    <div class="container c-container">
+      <img src="/favicons/y.jpg" height="70" width="70">
+      <button
+        class="navbar-toggler collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse flex-grow-0" id="navbarNav">
+        <ul class="navbar-nav nav-underline ml-auto mt-5 mt-md-0">
+          <li class="nav-item <%= title === 'Home' ? 'active' : '' %>">
+            <a
+              class="nav-link <%= title === 'Home' ? 'active' : '' %>"
+              aria-content="page"
+              href="/"
+            >
+              <i class="fas fa-lg fa-laptop-house"></i>
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="nav-item <%= title === 'About' ? 'active' : '' %>">
+            <a
+              class="nav-link <%= title === 'About' ? 'active' : '' %>"
+              aria-content="page"
+              href="/about"
+            >
+              <i class="fas fa-lg fa-laptop-house"></i>
+              <span>About</span>
+            </a>
+          </li>
+          <li class="nav-item <%= title === 'Projects' ? 'active' : '' %>">
+            <a
+              class="nav-link <%= title === 'Projects' ? 'active' : '' %>"
+              aria-content="page"
+              href="/projects"
+            >
+              <i class="fas fa-lg fa-laptop-house"></i>
+              <span>Projects</span>
+            </a>
+          </li>
+          <li class="nav-item <%= title === 'Services' ? 'active' : '' %>">
+            <a
+              class="nav-link <%= title === 'Services' ? 'active' : '' %>"
+              aria-content="page"
+              href="/services"
+            >
+              <i class="fas fa-lg fa-laptop-house"></i>
+              <span>Services</span>
+            </a>
+          </li>
+          <li class="nav-item <%= title === 'Contact' ? 'active' : '' %>">
+            <a
+              class="nav-link <%= title === 'Contact' ? 'active' : '' %>"
+              aria-content="page"
+              href="/contact"
+            >
+              <i class="fas fa-lg fa-laptop-house"></i>
+              <span>Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <!-- head section -->
+  <%- include ('partials/head.ejs') %>
+  <body>
+    <!-- header section -->
+    <%- include ('partials/main_nav.ejs') %>
+
+    <main class="container c-container mt-5 mb-5 pb-5">
+      <h1 class="display-4 text-center">My Services</h1>
+      <section class="row mt-5 justify-content-center mx-0">
+        <div class="card pt-4 col-lg-3">
+          <img
+            src="/images/coding.png"
+            class="card-img-top object-fit-contain"
+            alt="Lab Report"
+            width="100%"
+            height="128"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">Web Development Services</h5>
+          </div>
+        </div>
+        <div class="card pt-4 col-lg-3 mt-4 mt-lg-0 ms-lg-5">
+          <img
+            src="/images/front-end.png"
+            class="card-img-top object-fit-contain"
+            alt="Web Resume (v0.2)"
+            width="100%"
+            height="128"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">
+              Front-End Development Services
+            </h5>
+          </div>
+        </div>
+        <div class="card pt-4 col-lg-3 mt-4 mt-lg-0 ms-lg-5">
+          <img
+            src="/images/website-optimization.png"
+            class="card-img-top object-fit-contain"
+            alt="Text-Parser-Chrome-Ext"
+            width="100%"
+            height="128"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">
+              Website Optimization Services
+            </h5>
+          </div>
+        </div>
+        <div class="card pt-4 col-lg-3 mt-4 mt-lg-0 mt-lg-5">
+          <img
+            src="/images/designer.png"
+            class="card-img-top object-fit-contain"
+            alt="Text-Parser-Chrome-Ext"
+            width="100%"
+            height="128"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">UI/UX Design Services</h5>
+          </div>
+        </div>
+        <div class="card pt-4 col-lg-3 mt-4 mt-lg-0 mt-lg-5 ms-lg-5">
+          <img
+            src="/images/mentoring.png"
+            class="card-img-top object-fit-contain"
+            alt="Text-Parser-Chrome-Ext"
+            width="100%"
+            height="128"
+          />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-center">
+              Mentoring and Review Services
+            </h5>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--footer section-->
+    <%- include ('partials/footer.ejs') %>
+    <!--script section-->
+    <%- include ('partials/scripts.ejs') %>
+  </body>
+</html>
