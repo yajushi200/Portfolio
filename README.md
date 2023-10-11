@@ -21,6 +21,4 @@ To start the project, run `npm run start`. To build the project in production mo
 
 The website design has been created by me using the pre-build components of Bootstrap. I have utilized a modern and minimalistic design approach to showcase my resume in an aesthetically pleasing way. The design has been optimized for desktop and mobile devices to provide a seamless user experience.
 
-## Author
 
-My name is Haneef Muhammad, and this is my LinkedIn profile [Link](https://www.linkedin.com/in/haneefmhmmd/).
